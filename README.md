@@ -352,7 +352,7 @@ python -m pytest --cov=src tests/
 
 ## 📚 Documentation
 
-- [📖 **Architecture Guide**](architecture.html) - Detailed system design
+- [📖 **Architecture Guide**](https://innovatoryuvarajan.github.io/gemma-crisis-Ai-response/architecture.html) - Detailed system design
 
 ---
 
