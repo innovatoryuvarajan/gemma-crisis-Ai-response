@@ -133,8 +133,8 @@ ollama pull gemma3n:latest
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/crisis-ai-voice-assistant.git
-cd crisis-ai-voice-assistant
+git clone https://github.com/innovatoryuvarajan/gemma-crisis-Ai-response.git
+cd gemma-crisis-Ai-response
 
 # Create virtual environment
 python -m venv crisis_env
@@ -267,7 +267,7 @@ python scripts/setup_rag.py --rebuild
 ### Project Structure
 
 ```
-crisis-ai-voice-assistant/
+gemma-crisis-Ai-response/
 ├── src/
 │   ├── __init__.py              # Package initialization
 │   ├── main_voice_assistant.py  # Main application
@@ -352,11 +352,7 @@ python -m pytest --cov=src tests/
 
 ## 📚 Documentation
 
-- [📖 **Architecture Guide**](docs/architecture.md) - Detailed system design
-- [🔧 **API Reference**](docs/api_reference.md) - Developer documentation
-- [🚀 **Deployment Guide**](docs/deployment.md) - Production setup
-- [🧪 **Testing Guide**](docs/testing.md) - Test procedures
-- [🌐 **Localization**](docs/localization.md) - Adding new languages
+- [📖 **Architecture Guide**](architecture.html) - Detailed system design
 
 ---
 
@@ -364,10 +360,10 @@ python -m pytest --cov=src tests/
 
 ### Get Help
 
-- 🐛 **Report Bugs**: [GitHub Issues](https://github.com/yourusername/crisis-ai-voice-assistant/issues)
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/yourusername/crisis-ai-voice-assistant/discussions)
-- 📧 **Contact**: [your.email@domain.com](mailto:your.email@domain.com)
-- 📱 **Social**: [@CrisisAI](https://twitter.com/crisis_ai) (if you create social accounts)
+- 🐛 **Report Bugs**: [GitHub Issues](https://github.com/innovatoryuvarajan/gemma-crisis-Ai-response/issues)
+- 💬 **Discussions**: [GitHub Discussions](https://github.com/innovatoryuvarajan/gemma-crisis-Ai-response/discussions)
+- 📧 **Contact**: [innovatoryuvarajan@gmail.com](mailto:innovatoryuvarajan@gmail.com)
+
 
 ### Roadmap
 
@@ -420,8 +416,7 @@ If this project has helped you or could help others, please:
 
 *Built with ❤️ for humanity's safety*
 
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/crisis-ai-voice-assistant?style=social)](https://github.com/yourusername/crisis-ai-voice-assistant/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/yourusername/crisis-ai-voice-assistant?style=social)](https://github.com/yourusername/crisis-ai-voice-assistant/network/members)
-[![Twitter Follow](https://img.shields.io/twitter/follow/crisis_ai?style=social)](https://twitter.com/crisis_ai)
+[![GitHub stars](https://img.shields.io/github/stars/innovatoryuvarajan/gemma-crisis-Ai-response?style=social)](https://github.com/innovatoryuvarajan/gemma-crisis-Ai-response/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/innovatoryuvarajan/gemma-crisis-Ai-response?style=social)](https://github.com/innovatoryuvarajan/gemma-crisis-Ai-response/network/members)
 
 </div>
