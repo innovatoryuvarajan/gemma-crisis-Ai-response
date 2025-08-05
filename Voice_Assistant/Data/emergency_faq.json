@@ -1,0 +1,54 @@
+{
+  "faqs": [
+    {
+      "keywords": ["bleeding", "blood", "cut", "wound"],
+      "response": "For bleeding: Apply direct pressure with clean cloth. Elevate the wound above heart level if possible. Hold pressure for 10 minutes without peeking. If bleeding doesn't stop, seek immediate medical help.",
+      "urgency": "high"
+    },
+    {
+      "keywords": ["fire", "burning", "smoke"],
+      "response": "Fire emergency: Get low and crawl under smoke. Feel doors before opening - if hot, find another exit. If clothes catch fire: Stop, Drop, and Roll. Call emergency services immediately.",
+      "urgency": "high"
+    },
+    {
+      "keywords": ["flood", "water", "trapped"],
+      "response": "Flood situation: Move to highest ground immediately. Avoid walking in moving water. Stay away from electrical equipment. Signal for help with bright objects or sounds. Do not drink flood water.",
+      "urgency": "high"
+    },
+    {
+      "keywords": ["earthquake", "shaking", "building"],
+      "response": "During earthquake: Drop, Cover, and Hold On. Get under sturdy furniture. Stay away from windows and heavy objects. If outdoors, move away from buildings. After shaking stops, check for injuries and hazards.",
+      "urgency": "high"
+    },
+    {
+      "keywords": ["chest pain", "heart attack", "heart"],
+      "response": "Possible heart attack: Sit down and stay calm. Chew aspirin if available and not allergic. Loosen tight clothing. Call emergency services immediately. Do not drive yourself to hospital.",
+      "urgency": "high"
+    },
+    {
+      "keywords": ["choking", "can't breathe", "airway"],
+      "response": "For choking: Encourage coughing first. If unable to cough, perform Heimlich maneuver: Stand behind person, place hands below ribcage, thrust upward and inward firmly. Repeat until object dislodged.",
+      "urgency": "high"
+    },
+    {
+      "keywords": ["broken bone", "fracture", "can't move"],
+      "response": "Suspected fracture: Do not move the injured area. Immobilize with splint using rigid material. Apply ice wrapped in cloth. Elevate if possible. Seek medical attention immediately.",
+      "urgency": "medium"
+    },
+    {
+      "keywords": ["burn", "burned", "hot"],
+      "response": "For burns: Cool with cold running water for 10-20 minutes. Remove jewelry before swelling. Do not use ice or butter. Cover with clean cloth. For severe burns, seek immediate medical help.",
+      "urgency": "medium"
+    },
+    {
+      "keywords": ["lost", "help", "location"],
+      "response": "If lost: Stay calm and stay put if safe. Make yourself visible with bright colors. Use whistle or shout for help. Conserve energy and water. Mark your location for rescuers.",
+      "urgency": "medium"
+    },
+    {
+      "keywords": ["food", "water", "hungry", "thirsty"],
+      "response": "For food and water needs: Ration existing supplies. Collect rainwater if safe. Avoid unknown plants or water sources. Signal for help. Priority is rescue, not foraging.",
+      "urgency": "low"
+    }
+  ]
+}
