@@ -7,8 +7,6 @@
 [![Ollama](https://img.shields.io/badge/Runs%20on-Ollama-green?style=for-the-badge)](https://ollama.ai)
 [![License](https://img.shields.io/badge/License-Apache%202.0-orange?style=for-the-badge)](LICENSE)
 
-**🏆 Hackathon Submission - Crisis Response Track**
-
 *Your Voice. Your Safety. Always Available.*
 
 [🎥 **WATCH DEMO**](https://your-demo-link.com) | [🚀 **TRY LIVE DEMO**](https://your-live-demo.com) | [📖 **READ DOCS**](docs/)
@@ -58,7 +56,7 @@ A voice-first AI assistant that works **when everything else fails**:
 <td width="50%">
 
 ### 🌍 **Multi-Language Support**
-- English and Tamil (expandable)
+- English, Tamil,french (expandable)
 - Culturally appropriate responses
 - Local emergency protocol awareness
 
@@ -143,18 +141,13 @@ source crisis_env/bin/activate  # On Windows: crisis_env\Scripts\activate
 # Install dependencies
 pip install -r requirements.txt
 
-# Download Vosk model
-python scripts/download_models.py
-
-# Setup knowledge base
-python scripts/setup_rag.py
 ```
 
 ### 3. Run Crisis-AI
 
 ```bash
-# Start the voice assistant
-python -m src.main_voice_assistant
+# Start the voice assistant (Recommended approach)
+python -m Responses/Src/main_voice_assistant.py
 
 # Or use the quick start
 python -c "from src import quick_start; quick_start()"
