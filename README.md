@@ -261,35 +261,26 @@ python scripts/setup_rag.py --rebuild
 
 ```
 gemma-crisis-Ai-response/
-├── src/
+├── Documents/
+│   └── Attached 11 PDF file's
+├── Response/src/
+│   ├── __pycache__
+│   ├── Search_Nearby_BLE.py
 │   ├── __init__.py              # Package initialization
 │   ├── main_voice_assistant.py  # Main application
 │   ├── voice_handler.py         # STT/TTS processing
 │   ├── query_engine.py          # RAG + LLM integration
 │   ├── emergency_detector.py    # SOS detection & BLE
 │   └── config.py               # Configuration settings
-├── data/
-│   ├── documents/              # Source emergency manuals
-│   ├── rag_index.faiss        # Vector database
-│   ├── rag_metadata.json      # Document metadata
-│   └── emergency_faq.json     # Predefined responses
-├── models/
-│   └── vosk-model-*/          # Speech recognition models
-├── scripts/
-│   ├── download_models.py     # Model download utility
-│   ├── setup_rag.py          # Knowledge base setup
-│   └── benchmark.py          # Performance testing
-├── tests/
-│   ├── test_voice_handler.py
-│   ├── test_query_engine.py
-│   └── test_emergency_detector.py
-├── docs/
-│   ├── architecture.md
-│   ├── api_reference.md
-│   └── deployment.md
+├── Voice_Assistant/
+│   ├── Data
+|   │   ├── emergency_faq.json       # Predefined responses
+|   │   ├── rag_index.faiss          # Vector database
+|   |   └── rag_metadata.json        # Document metadata
+│   └── models/
+|       └── vosk-model-small-en-us-0.15     # Speech recognition models
 ├── requirements.txt
-├── setup.py
-├── LICENSE
+├── architecture.html
 └── README.md
 ```
 
