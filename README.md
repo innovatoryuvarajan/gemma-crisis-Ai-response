@@ -9,7 +9,7 @@
 
 *Your Voice. Your Safety. Always Available.*
 
-[🎥 **WATCH DEMO**](https://your-demo-link.com) | [🚀 **TRY LIVE DEMO**](https://your-live-demo.com) | [📖 **READ DOCS**](docs/)
+[🎥 **WATCH DEMO**]([https://your-demo-link.com](https://youtu.be/39agkU9aRiM?si=KJtsL6mYTN51jAc_)) | [🚀 **TRY LIVE DEMO**](https://your-live-demo.com) | [📖 **READ DOCS**]([Technical WriteUp Crisis-AI.pdf](https://github.com/innovatoryuvarajan/gemma-crisis-Ai-response/blob/main/Technical%20WriteUp%20Crisis-AI.pdf))
 
 </div>
 
@@ -237,10 +237,10 @@ EMERGENCY_CONTACTS = {
 
 ```bash
 # Download additional Vosk models
-python scripts/download_models.py --language hindi
+python Voice_Assistant/Models/download_models.py --language hindi
 
 # Update language config
-python scripts/setup_language.py --add hindi
+python Voice_Assistant/Models/setup_language.py --add hindi
 ```
 
 ### Customize Knowledge Base
@@ -249,8 +249,7 @@ python scripts/setup_language.py --add hindi
 # Add your emergency PDFs to data/documents/
 cp your_emergency_manual.pdf data/documents/
 
-# Rebuild knowledge base
-python scripts/setup_rag.py --rebuild
+# Perform embedding with the help of FAISS & update the present rag_index.faiss file
 ```
 
 ---
@@ -287,6 +286,7 @@ gemma-crisis-Ai-response/
 ### Running Tests
 
 ```bash
+===ON HOLD YET TO IMPLEMENT===
 # Run all tests
 python -m pytest tests/
 
