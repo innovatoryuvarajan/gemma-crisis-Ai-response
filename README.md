@@ -9,7 +9,7 @@
 
 *Your Voice. Your Safety. Always Available.*
 
-[🎥 **WATCH DEMO**]([https://your-demo-link.com](https://youtu.be/39agkU9aRiM?si=KJtsL6mYTN51jAc_)) | [🚀 **TRY LIVE DEMO**](https://your-live-demo.com) | [📖 **READ DOCS**]([Technical WriteUp Crisis-AI.pdf](https://github.com/innovatoryuvarajan/gemma-crisis-Ai-response/blob/main/Technical%20WriteUp%20Crisis-AI.pdf))
+[🎥 **WATCH DEMO**]([https://youtu.be/39agkU9aRiM?si=KJtsL6mYTN51jAc_]) | [🚀 **TRY LIVE DEMO**](https://your-live-demo.com)(INPROGRESS) | [📖 **READ DOCS**]([https://github.com/innovatoryuvarajan/gemma-crisis-Ai-response/blob/main/Technical%20WriteUp%20Crisis-AI.pdf])
 
 </div>
 
